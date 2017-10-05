@@ -10,7 +10,6 @@ public class Race {
 	public Race() {}
 	
 	public Race(String date, int participants, boolean prize) {
-		//super();
 		this.date = date;
 		this.participants = participants;
 		this.prize = prize;
