@@ -5,13 +5,9 @@ class Bus extends PassengerCar {
 	/**
 	 * Constructors
 	 */
-	public Bus() {
-		super();
-		this.numberOfSeats = null;
-	}
+	public Bus() {}
 	public Bus(String carModel, String engineType, String power, String weight) {
 		super(carModel, engineType, power, weight);
-		this.numberOfSeats = null;
 	}
 	public Bus(String carModel, String engineType, String power, String weight, String carMileage, String fuelConsumption, String accelerationTime, String numberOfSeats) {
 		super(carModel, engineType, power, weight, carMileage, fuelConsumption, accelerationTime);

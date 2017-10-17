@@ -1,24 +1,19 @@
 package Lab.Task2;
 
-abstract class Car {
+public class Car {
 	private String carModel, engineType, power, weight, carMileage;
 	/**
 	 * Constructors
 	 */
-	protected Car() {
-		this.carModel = null;
-		this.setEngineType(null);
-		this.setPower(null);
-		this.setWeight(null);
-		this.setCarMileage(null);
-	}
+	protected Car() {}
+	
 	protected Car(String carModel, String engineType, String power, String weight) {
 		this.carModel = carModel;
 		this.setEngineType(engineType);
 		this.setPower(power);
 		this.setWeight(weight);
-		this.setCarMileage(null);
 	}
+	
 	protected Car(String carModel, String engineType, String power, String weight, String carMileage) {
 		this.carModel = carModel;
 		this.setEngineType(engineType);
@@ -62,7 +57,9 @@ abstract class Car {
 	public void setCarMileage(String carMileage) {
 		this.carMileage = carMileage;
 	}
-	abstract protected String carType();
+	protected String carType() {
+		return "This is car!";
+	}
 	
 	@Override
 	public String toString() {

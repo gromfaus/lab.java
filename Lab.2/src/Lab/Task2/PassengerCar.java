@@ -6,15 +6,10 @@ class PassengerCar extends Car{
 	/**
 	 * Constructors
 	 */
-	public PassengerCar() {
-		super();
-		this.fuelConsumption = null;
-		this.accelerationTime = null;
-	}
+	public PassengerCar() {}
+	
 	public PassengerCar(String carModel, String engineType, String power, String weight) {
 		super(carModel, engineType, power, weight);
-		this.fuelConsumption = null;
-		this.accelerationTime = null;
 	}
 	public PassengerCar(String carModel, String engineType, String power, String weight, String carMileage, String fuelConsumption, String accelerationTime) {
 		super(carModel, engineType, power, weight, carMileage);

@@ -13,8 +13,9 @@ public class Runner {
 		mas[7] = new Truck("MAN", "Diesel", "320 hp", "5900 kg", "150000 km", "100 t", "Closed");
 		mas[8] = new Bus("Icarus", "Diesel", "210 hp", "5200 kg", "500000 km", "30 l/100km", "24 s", "100");
 		mas[9] = new PassengerCar("Opel", "Gasoline", "136 hp", "2100 kg", "360000", "15 l/100km", "11 s");
+		
 		for(int i = 0; i < mas.length; i++) {
-			System.out.println(mas[i]);
+			System.out.println(mas[i].toString());
 		}
 	}
 }

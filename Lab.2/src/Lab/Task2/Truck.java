@@ -6,15 +6,10 @@ class Truck extends Car {
 	/**	
 	 * Constructors
 	 */
-	public Truck() {
-		super();
-		this.carryingCapacity = null;
-		this.bodyType = null;
-	}
+	public Truck() {}
+	
 	public Truck(String carModel, String engineType, String power, String weight) {
 		super(carModel, engineType, power, weight);
-		this.carryingCapacity = null;
-		this.bodyType = null;
 	}
 	public Truck(String carModel, String engineType, String power, String weight, String carMileage, String carryingCapacity, String bodyType) {
 		super(carModel, engineType, power, weight, carMileage);
