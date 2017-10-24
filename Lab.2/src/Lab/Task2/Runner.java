@@ -15,7 +15,7 @@ public class Runner {
 		mas[9] = new PassengerCar("Opel", "Gasoline", "136 hp", "2100 kg", "360000", "15 l/100km", "11 s");
 		
 		for(int i = 0; i < mas.length; i++) {
-			System.out.println(mas[i].toString());
+			System.out.println(mas[i]);
 		}
 	}
 }
