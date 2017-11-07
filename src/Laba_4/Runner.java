@@ -43,7 +43,8 @@ public class Runner {
         		list.add(temp);
         	}
         }	catch (NegativeCharacteristicsException ex) { 
-        		System.out.println("Data entry error " + ex.getMessage() + "!");
+        		System.err.println("Data entry error " + ex.getMessage() + "!");
+        		System.exit(1);"!");
     	 }
         
         File file = new File("computers.bin");
